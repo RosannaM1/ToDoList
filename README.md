@@ -26,13 +26,13 @@ Pasos para ejecutar la aplicación:
 Abra el proyecto .NET en Visual Studio.
 Asegúrese de tener instalado SQL Server.
 En la consola de Visual Studio, ejecute el comando 
-Update-database -context applicationDbContext 
+Update-database -context AppDbContext
 para crear y actualizar la base de datos.
 Ejecute el proyecto presionando el botón "Iniciar" o mediante la tecla F5.
 
 Migraciones:
 
-Dado que el proyecto utiliza el enfoque "Code First" para la gestión de la base de datos, es posible que sea necesario realizar migraciones para sincronizar los cambios en el modelo de datos con la base de datos existente. El comando Update-database mencionado anteriormente se encarga de realizar estas migraciones automáticamente.
+Dado que el proyecto utiliza el enfoque "Code First" para la gestión de la base de datos, es necesario realizar migraciones para sincronizar los cambios en el modelo de datos con la base de datos existente. El comando Update-database mencionado anteriormente se encarga de realizar estas migraciones automáticamente.
 
 2. Frontend (React):
 
