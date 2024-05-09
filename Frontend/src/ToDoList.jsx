@@ -6,7 +6,9 @@ import TaskList from './Components/TaskList';
 import useTaskManagement from './Hooks/UseTaskManagement';
 import Title from './Components/Title';
 import SubTitle from './Components/SubTitle';
-import Footer from './Components/Footer';
+import { useState } from 'react';
+
+//Componente Principal que se usa para renderizar los demas componentes
 const ToDoList = () => {
   const { tasks, addTask, toggleTask, editTask, deleteTask } = useTaskManagement();
   const [editedTask, setEditedTask] = useState(null);
@@ -82,8 +84,6 @@ const ToDoList = () => {
           onClose={() => setDeletedTask(null)}
         />
       )}
-
-      <Footer/>
     </div>
   );
 }

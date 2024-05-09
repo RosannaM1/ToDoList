@@ -1,5 +1,5 @@
 import React from 'react';
-
+//Componente que se encarga de recibir el valor y agregarlo
 const AddTaskInput = ({ handleAddTask, setNewTaskDescription, newTaskDescription }) => {
   return (
     <div className="flex mt-20 mb-10">

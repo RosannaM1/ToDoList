@@ -1,5 +1,5 @@
 import React from 'react';
-
+//ventana Modal que confirma la eliminación de una tarea
 function ConfirmDeleteModal({ task, onConfirm, onClose }) {
   return (
     <div id="popup-modal" tabIndex="-1" className="fixed inset-0 overflow-y-auto overflow-x-hidden z-50 flex justify-center items-center bg-black bg-opacity-50">

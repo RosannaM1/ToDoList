@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+//ventana Modal que confirma la edición de una tarea
 
 const EditTaskModal = ({ task, onEdit, onClose }) => {
   const [editedTask, setEditedTask] = useState(task);

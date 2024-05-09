@@ -1,16 +1,15 @@
-README - Aplicación de lista de tareas 
-Descripción del proyecto:
+Aplicación de lista de tareas 
 
+Descripción del proyecto:
 Este proyecto consiste en una aplicación web para gestionar listas de tareas pendientes, desarrollada con React, Tailwind, .NET y SQL Server. 
 La aplicación permite a los usuarios crear, leer, actualizar y eliminar (CRUD) elementos de la lista.
 
 Tecnologías utilizadas:
-
 Front-end: React,Tailwind, Js, Html
 Back-end: .NET, C#, SQL Server
 Base de datos: SQL Server
-Entregables:
 
+Entregables:
 Proyecto React para el front-end de la aplicación
 Proyecto .NET para el back-end de la API
 Archivo README con instrucciones de instalación y ejecución

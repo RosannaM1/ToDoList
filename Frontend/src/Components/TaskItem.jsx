@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdDelete } from "react-icons/md";
 import { CiEdit } from "react-icons/ci";
-
+//Elemento individual de la lista, posteriormente se mapea en ListItem
 const TaskItem = ({ task, handleToggleTask, handleEdit, handleDelete }) => {
   const completedStyle = task.estado ? "line-through" : "none"; 
 

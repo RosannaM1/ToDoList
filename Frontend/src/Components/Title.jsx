@@ -1,4 +1,5 @@
 import React from 'react';
+//Titulo de la pagina, recibe un parametro de texto lo que lo hace reusable
 
 const Subtitle = ({ text }) => {
   return (

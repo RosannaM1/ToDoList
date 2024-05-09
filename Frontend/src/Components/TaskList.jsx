@@ -1,6 +1,6 @@
 import React from 'react';
 import TaskItem from './TaskItem';
-
+//Lista de tareas, se renderiza el componente TaskItem
 const TaskList = ({ tasks, handleToggleTask, handleEdit, handleDelete, showCompleted }) => {
   const filteredTasks = showCompleted ? tasks.filter(task => task.estado) : tasks.filter(task => !task.estado);
   return (
